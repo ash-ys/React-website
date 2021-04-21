@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Voltaire", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 14px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: calc(1rem + 3vw);
+  color: white;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: calc(1rem + 1.5vw);
+  color: white;
+}
+
+p {
+  font-weight: 500;
+  font-size: calc(0.75rem + 1vw);
+  color: white;
+}
+
+a {
+  font-weight: 900;
+  font-size: calc(0.6rem + 1vw);
+  color: white;
+}
+
+li {
+  font-size: calc(0.6rem + 1vw);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
